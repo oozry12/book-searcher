@@ -1,5 +1,9 @@
 # Book Searcher
 
+> 官方不再提供index源 为了紧急临时用一下，暂停更在`0.9.0`
+
+[index.zip](https://onedrive.caomingjun.com/api/raw/?path=/%F0%9F%96%A5%E8%BD%AF%E4%BB%B6/zlib-searcher/releases/index-0.9.0.zip)
+
 [![GitHub stars](https://img.shields.io/github/stars/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/network)
 [![Release](https://img.shields.io/github/release/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/releases)
