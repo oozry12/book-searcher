@@ -2,7 +2,7 @@ version: '3'
 
 services:
   book-searcher:
-    image: ghcr.io/book-searcher-org/book-searcher:0.8.0
+    image: ghcr.io/book-searcher-org/book-searcher:0.9.0
     restart: always
     ports:
       - "7070:7070"
