@@ -19,7 +19,7 @@ import {
 import { TbFolder } from 'react-icons/tb';
 
 import React from 'react';
-import { invoke } from '@tauri-apps/api';
+import { invoke } from '@tauri-apps/api/primitives';
 import { open } from '@tauri-apps/plugin-dialog';
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
@@ -120,10 +120,8 @@ const CreateIndex: React.FC = () => {
                     {...register('compressor')}
                     aria-invalid={errors.compressor ? 'true' : 'false'}
                   >
-                    <option>none</option>
+                    <option selected>none</option>
                     <option>lz4</option>
-                    <option selected>brotli</option>
-                    <option>snappy</option>
                     <option>zstd</option>
                   </Select>
                 }
